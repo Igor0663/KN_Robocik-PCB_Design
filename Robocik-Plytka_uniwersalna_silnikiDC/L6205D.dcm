@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L6205D
+D L6205D, Full Bridge Motor Driver, Full Bridge PWM, 8 to 52V, 20-Pin SOIC
+K
+F http://docs-emea.rs-online.com/webdocs/0805/0900766b80805eda.pdf
+$ENDCMP
+#
+#End Doc Library
