@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name ESC)(type Legacy)(uri ${KIPRJMOD}/ESC.lib)(options "")(descr ""))
+  (lib (name Connectors)(type Legacy)(uri ${KIPRJMOD}/Connectors.lib)(options "")(descr ""))
+  (lib (name Inductor)(type Legacy)(uri C:/Users/Igor/Desktop/KiCad/Robocik-FiltryLC-zasilanie_silnikow/74435571100/74435571100.lib)(options "")(descr ""))
+)

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name ESC)(type KiCad)(uri ${KIPRJMOD}/ESC.pretty)(options "")(descr ""))
+  (lib (name Connectors)(type KiCad)(uri ${KIPRJMOD}/Connectors.pretty)(options "")(descr ""))
+  (lib (name 74435571100)(type KiCad)(uri C:/Users/Igor/Desktop/KiCad/Robocik-FiltryLC-zasilanie_silnikow/74435571100)(options "")(descr ""))
+)
