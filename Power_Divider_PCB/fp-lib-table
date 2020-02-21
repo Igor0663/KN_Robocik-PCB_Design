@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Connectors)(type KiCad)(uri C:/Users/Igor/Desktop/KiCad/Robocik-FiltryLC-zasilanie_silnikow/Connectors.pretty)(options "")(descr ""))
+  (lib (name Connector_MOLEX_new)(type KiCad)(uri ${KIPRJMOD}/Connector_MOLEX_new.pretty)(options "")(descr ""))
+)
