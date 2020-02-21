@@ -29,16 +29,6 @@ Text GLabel 4550 3025 0    50   Input ~ 0
 HP+
 Text GLabel 4550 3525 0    50   Input ~ 0
 HP-
-Wire Wire Line
-	6325 3025 6425 3025
-Wire Wire Line
-	6125 3025 6325 3025
-Connection ~ 6325 3025
-Wire Wire Line
-	6125 3525 6325 3525
-Connection ~ 6325 3525
-Wire Wire Line
-	6325 3525 6425 3525
 Connection ~ 6125 3525
 Connection ~ 6025 3525
 Wire Wire Line
@@ -63,17 +53,6 @@ Wire Wire Line
 	5650 3025 5750 3025
 Wire Wire Line
 	4550 3025 4675 3025
-$Comp
-L Connector_Generic:Conn_02x02_Counter_Clockwise J7
-U 1 1 5E504832
-P 6425 3225
-F 0 "J7" H 6475 3442 50  0000 C CNN
-F 1 "Conn_02x02_Counter_Clockwise" H 6475 3351 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 6425 3225 50  0001 C CNN
-F 3 "~" H 6425 3225 50  0001 C CNN
-	1    6425 3225
-	0    1    1    0   
-$EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J6
 U 1 1 5E5044A1
@@ -219,4 +198,99 @@ Text Notes 8320 7640 0    59   ~ 0
 21.02.2020
 Text Notes 7080 6900 0    118  ~ 0
 Igor Zieliński
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 5E501641
+P 6500 4225
+F 0 "J10" H 6580 4217 50  0000 L CNN
+F 1 "Conn_01x02" H 6580 4126 50  0000 L CNN
+F 2 "Connectors:XT90PW-F" H 6500 4225 50  0001 C CNN
+F 3 "~" H 6500 4225 50  0001 C CNN
+	1    6500 4225
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5500 4025 6300 4025
+Wire Wire Line
+	6300 4025 6300 4125
+Connection ~ 5500 4025
+Wire Wire Line
+	5500 4350 6300 4350
+Wire Wire Line
+	6300 4350 6300 4225
+Connection ~ 5500 4350
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J11
+U 1 1 5E50702B
+P 6500 3225
+F 0 "J11" H 6550 3442 50  0000 C CNN
+F 1 "Conn_02x02_Counter_Clockwise" H 6550 3351 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 6500 3225 50  0001 C CNN
+F 3 "~" H 6500 3225 50  0001 C CNN
+	1    6500 3225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6125 3025 6400 3025
+Wire Wire Line
+	6125 3525 6400 3525
+Wire Wire Line
+	6400 3525 6500 3525
+Connection ~ 6400 3525
+Wire Wire Line
+	6400 3025 6500 3025
+Connection ~ 6400 3025
+$Comp
+L Device:LED_Small D1
+U 1 1 5E5168AB
+P 5350 1825
+F 0 "D1" H 5350 1620 50  0000 C CNN
+F 1 "LED_Small" H 5350 1711 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" V 5350 1825 50  0001 C CNN
+F 3 "~" V 5350 1825 50  0001 C CNN
+	1    5350 1825
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D2
+U 1 1 5E518E7C
+P 5350 2075
+F 0 "D2" H 5350 1870 50  0000 C CNN
+F 1 "LED_Small" H 5350 1961 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" V 5350 2075 50  0001 C CNN
+F 3 "~" V 5350 2075 50  0001 C CNN
+	1    5350 2075
+	1    0    0    -1  
+$EndComp
+Text GLabel 4875 1950 0    50   Input ~ 0
+HP+
+Wire Wire Line
+	5450 1825 5450 1950
+Text GLabel 5675 1950 2    50   Input ~ 0
+HP-
+Wire Wire Line
+	5675 1950 5450 1950
+Connection ~ 5450 1950
+Wire Wire Line
+	5450 1950 5450 2075
+Wire Wire Line
+	5250 1825 5250 1950
+$Comp
+L Device:R_Small R1
+U 1 1 5E51E727
+P 5050 1950
+F 0 "R1" V 4854 1950 50  0000 C CNN
+F 1 "R_Small" V 4945 1950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 5050 1950 50  0001 C CNN
+F 3 "~" H 5050 1950 50  0001 C CNN
+	1    5050 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 1950 5250 1950
+Connection ~ 5250 1950
+Wire Wire Line
+	5250 1950 5250 2075
+Wire Wire Line
+	4875 1950 4950 1950
 $EndSCHEMATC
