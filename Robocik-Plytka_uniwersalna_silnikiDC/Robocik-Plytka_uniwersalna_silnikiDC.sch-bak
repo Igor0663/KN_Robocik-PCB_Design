@@ -1488,9 +1488,9 @@ Wire Wire Line
 	7800 4200 7950 4200
 Wire Wire Line
 	7200 4300 7950 4300
-Text GLabel 5900 6200 0    50   Input ~ 0
-CAN_H
 Text GLabel 5900 6300 0    50   Input ~ 0
+CAN_H
+Text GLabel 5900 6200 0    50   Input ~ 0
 CAN_L
 Wire Wire Line
 	5900 6300 6000 6300
