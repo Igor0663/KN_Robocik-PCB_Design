@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Robocik-Plytka_uniwersalna_silnikiDC-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -224,37 +225,35 @@ F 3 "~" H 10800 1750 50  0001 C CNN
 $EndComp
 Text GLabel 10400 1100 1    50   Input ~ 0
 VddPWR
-Text GLabel 10400 6250 0    50   Input ~ 0
-VddPWR
 $Comp
 L Device:C_Small C21
 U 1 1 5E489BE9
-P 10650 5900
-F 0 "C21" V 10879 5900 50  0000 C CNN
-F 1 "100nF" V 10788 5900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10650 5900 50  0001 C CNN
-F 3 "~" H 10650 5900 50  0001 C CNN
-	1    10650 5900
-	0    -1   -1   0   
+P 9650 1750
+F 0 "C21" V 9879 1750 50  0000 C CNN
+F 1 "100nF" V 9788 1750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9650 1750 50  0001 C CNN
+F 3 "~" H 9650 1750 50  0001 C CNN
+	1    9650 1750
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP_Small C22
 U 1 1 5E48A897
-P 10650 6250
-F 0 "C22" V 10875 6250 50  0000 C CNN
-F 1 "100uF" V 10784 6250 50  0000 C CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C" H 10650 6250 50  0001 C CNN
-F 3 "~" H 10650 6250 50  0001 C CNN
-	1    10650 6250
-	0    -1   -1   0   
+P 9500 1750
+F 0 "C22" V 9725 1750 50  0000 C CNN
+F 1 "100uF" V 9634 1750 50  0000 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C" H 9500 1750 50  0001 C CNN
+F 3 "~" H 9500 1750 50  0001 C CNN
+	1    9500 1750
+	1    0    0    -1  
 $EndComp
 Text GLabel 9800 1000 2    50   Input ~ 0
 EN
 Text GLabel 9550 2250 2    50   Input ~ 0
 EN
-Text GLabel 10100 2650 0    50   Input ~ 0
-ENG2
 Text GLabel 10100 2550 0    50   Input ~ 0
+ENG2
+Text GLabel 10100 2650 0    50   Input ~ 0
 ENG1
 $Comp
 L Device:R_Small R11
@@ -289,17 +288,6 @@ F 1 "GNDA" H 10005 5177 50  0000 C CNN
 F 2 "" H 10000 5350 50  0001 C CNN
 F 3 "" H 10000 5350 50  0001 C CNN
 	1    10000 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR025
-U 1 1 5E4EEF12
-P 10900 6250
-F 0 "#PWR025" H 10900 6000 50  0001 C CNN
-F 1 "GNDA" H 10905 6077 50  0000 C CNN
-F 2 "" H 10900 6250 50  0001 C CNN
-F 3 "" H 10900 6250 50  0001 C CNN
-	1    10900 6250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -496,50 +484,50 @@ IN1
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 5E74AA65
-P 9200 5650
-F 0 "J4" H 9280 5642 50  0000 L CNN
-F 1 "Conn_01x02" H 9280 5551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9200 5650 50  0001 C CNN
-F 3 "~" H 9200 5650 50  0001 C CNN
-	1    9200 5650
+P 8350 5600
+F 0 "J4" H 8430 5592 50  0000 L CNN
+F 1 "Conn_01x02" H 8430 5501 50  0000 L CNN
+F 2 "43650-0212:43650-0214" H 8350 5600 50  0001 C CNN
+F 3 "~" H 8350 5600 50  0001 C CNN
+	1    8350 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J6
 U 1 1 5E74DC43
-P 9200 6100
-F 0 "J6" H 9280 6092 50  0000 L CNN
-F 1 "Conn_01x02" H 9280 6001 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9200 6100 50  0001 C CNN
-F 3 "~" H 9200 6100 50  0001 C CNN
-	1    9200 6100
+P 8350 6050
+F 0 "J6" H 8430 6042 50  0000 L CNN
+F 1 "Conn_01x02" H 8430 5951 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-04A1_2x02_P4.20mm_Horizontal" H 8350 6050 50  0001 C CNN
+F 3 "~" H 8350 6050 50  0001 C CNN
+	1    8350 6050
 	1    0    0    -1  
 $EndComp
-Text GLabel 8950 5650 0    50   Input ~ 0
+Text GLabel 8100 5600 0    50   Input ~ 0
 VddD
 $Comp
 L power:GNDD #PWR017
 U 1 1 5E753C65
-P 8950 5750
-F 0 "#PWR017" H 8950 5500 50  0001 C CNN
-F 1 "GNDD" H 8954 5595 50  0000 C CNN
-F 2 "" H 8950 5750 50  0001 C CNN
-F 3 "" H 8950 5750 50  0001 C CNN
-	1    8950 5750
+P 8100 5700
+F 0 "#PWR017" H 8100 5450 50  0001 C CNN
+F 1 "GNDD" H 8104 5545 50  0000 C CNN
+F 2 "" H 8100 5700 50  0001 C CNN
+F 3 "" H 8100 5700 50  0001 C CNN
+	1    8100 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR023
 U 1 1 5E756DE5
-P 8950 6200
-F 0 "#PWR023" H 8950 5950 50  0001 C CNN
-F 1 "GNDA" H 8955 6027 50  0000 C CNN
-F 2 "" H 8950 6200 50  0001 C CNN
-F 3 "" H 8950 6200 50  0001 C CNN
-	1    8950 6200
+P 8100 6150
+F 0 "#PWR023" H 8100 5900 50  0001 C CNN
+F 1 "GNDA" H 8105 5977 50  0000 C CNN
+F 2 "" H 8100 6150 50  0001 C CNN
+F 3 "" H 8100 6150 50  0001 C CNN
+	1    8100 6150
 	1    0    0    -1  
 $EndComp
-Text GLabel 8950 6100 0    50   Input ~ 0
+Text GLabel 8100 6050 0    50   Input ~ 0
 VddPWR
 $Comp
 L Device:CP_Small C15
@@ -1025,9 +1013,7 @@ Text GLabel 9250 2050 2    50   Input ~ 0
 ENG2
 Text GLabel 9250 1550 2    50   Input ~ 0
 ENG2
-Text GLabel 9250 1950 2    50   Input ~ 0
-VddPWR
-Text GLabel 9250 1650 2    50   Input ~ 0
+Text GLabel 9700 1650 2    50   Input ~ 0
 VddPWR
 Text GLabel 7900 1450 0    50   Input ~ 0
 IN2
@@ -1299,26 +1285,26 @@ Text Notes 3300 1450 0    79   ~ 0
 Transoptory
 Text Notes 5500 5500 0    79   ~ 0
 Zworka - tryb
-Text GLabel 5900 6600 0    50   Input ~ 0
+Text GLabel 5925 6275 0    50   Input ~ 0
 3.3VD
 $Comp
 L power:GNDD #PWR0102
 U 1 1 5E4E3C48
-P 5900 6900
-F 0 "#PWR0102" H 5900 6650 50  0001 C CNN
-F 1 "GNDD" H 5904 6745 50  0000 C CNN
-F 2 "" H 5900 6900 50  0001 C CNN
-F 3 "" H 5900 6900 50  0001 C CNN
-	1    5900 6900
+P 5925 6575
+F 0 "#PWR0102" H 5925 6325 50  0001 C CNN
+F 1 "GNDD" H 5929 6420 50  0000 C CNN
+F 2 "" H 5925 6575 50  0001 C CNN
+F 3 "" H 5925 6575 50  0001 C CNN
+	1    5925 6575
 	1    0    0    -1  
 $EndComp
 Text GLabel 3600 6900 2    50   Input ~ 0
 JTMS_SWDIO
 Text GLabel 3600 7000 2    50   Input ~ 0
 JTCK_SWCLK
-Text GLabel 5900 6700 0    50   Input ~ 0
+Text GLabel 5925 6375 0    50   Input ~ 0
 JTMS_SWDIO
-Text GLabel 5900 6800 0    50   Input ~ 0
+Text GLabel 5925 6475 0    50   Input ~ 0
 JTCK_SWCLK
 Text Notes 9350 3300 0    79   ~ 0
 Zasilanie, stabilizacja
@@ -1387,22 +1373,22 @@ Wire Wire Line
 Connection ~ 6300 4400
 Wire Wire Line
 	6200 4400 6200 4950
-Text GLabel 5900 6400 0    50   Input ~ 0
+Text GLabel 4675 7250 0    50   Input ~ 0
 USART_RX
-Text GLabel 5900 6500 0    50   Input ~ 0
+Text GLabel 4675 7350 0    50   Input ~ 0
 USART_TX
 Wire Wire Line
-	5900 6400 6000 6400
+	4675 7250 4775 7250
 Wire Wire Line
-	5900 6500 6000 6500
+	4675 7350 4775 7350
 Wire Wire Line
-	6000 6600 5900 6600
+	6025 6275 5925 6275
 Wire Wire Line
-	5900 6700 6000 6700
+	5925 6375 6025 6375
 Wire Wire Line
-	6000 6800 5900 6800
+	6025 6475 5925 6475
 Wire Wire Line
-	5900 6900 6000 6900
+	5925 6575 6025 6575
 Text GLabel 7950 4200 2    50   Input ~ 0
 CAN_H
 Text GLabel 7950 4300 2    50   Input ~ 0
@@ -1411,21 +1397,21 @@ Wire Wire Line
 	7800 4200 7950 4200
 Wire Wire Line
 	7200 4300 7950 4300
-Text GLabel 5900 6300 0    50   Input ~ 0
+Text GLabel 5950 7375 0    50   Input ~ 0
 CAN_H
-Text GLabel 5900 6200 0    50   Input ~ 0
+Text GLabel 5950 7275 0    50   Input ~ 0
 CAN_L
 Wire Wire Line
-	5900 6300 6000 6300
+	5950 7375 6050 7375
 Wire Wire Line
-	5900 6200 6000 6200
+	5950 7275 6050 7275
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5E89980F
 P 10350 2550
 F 0 "J2" H 10430 2542 50  0000 L CNN
 F 1 "Conn_01x02" H 10430 2451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10350 2550 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal" H 10350 2550 50  0001 C CNN
 F 3 "~" H 10350 2550 50  0001 C CNN
 	1    10350 2550
 	1    0    0    -1  
@@ -1434,43 +1420,14 @@ Wire Wire Line
 	10150 2550 10100 2550
 Wire Wire Line
 	10150 2650 10100 2650
-$Comp
-L Connector_Generic:Conn_01x08 J1
-U 1 1 5E818251
-P 6200 6500
-F 0 "J1" H 6280 6492 50  0000 L CNN
-F 1 "Conn_01x08" H 6280 6401 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6200 6500 50  0001 C CNN
-F 3 "~" H 6200 6500 50  0001 C CNN
-	1    6200 6500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	9000 6200 8950 6200
+	8150 6150 8100 6150
 Wire Wire Line
-	8950 6100 9000 6100
+	8100 6050 8150 6050
 Wire Wire Line
-	9000 5750 8950 5750
+	8150 5700 8100 5700
 Wire Wire Line
-	9000 5650 8950 5650
-Wire Wire Line
-	10550 6250 10500 6250
-Wire Wire Line
-	10750 6250 10800 6250
-Wire Wire Line
-	10800 6250 10800 5900
-Wire Wire Line
-	10800 5900 10750 5900
-Connection ~ 10800 6250
-Wire Wire Line
-	10800 6250 10900 6250
-Wire Wire Line
-	10500 5900 10550 5900
-Wire Wire Line
-	10500 5900 10500 6250
-Connection ~ 10500 6250
-Wire Wire Line
-	10500 6250 10400 6250
+	8150 5600 8100 5600
 $Comp
 L Regulator_Linear:L78L05_SOT89 U4
 U 1 1 5E44E45D
@@ -1541,10 +1498,6 @@ Wire Wire Line
 Wire Wire Line
 	9200 1550 9250 1550
 Wire Wire Line
-	9250 1650 9200 1650
-Wire Wire Line
-	9200 1950 9250 1950
-Wire Wire Line
 	9250 2050 9200 2050
 $Comp
 L L6205D:L6205D IC2
@@ -1570,23 +1523,14 @@ $EndComp
 $Comp
 L power:GNDA #PWR0104
 U 1 1 5E8CF356
-P 9650 1750
-F 0 "#PWR0104" H 9650 1500 50  0001 C CNN
-F 1 "GNDA" H 9655 1577 50  0000 C CNN
-F 2 "" H 9650 1750 50  0001 C CNN
-F 3 "" H 9650 1750 50  0001 C CNN
-	1    9650 1750
+P 9650 1925
+F 0 "#PWR0104" H 9650 1675 50  0001 C CNN
+F 1 "GNDA" H 9655 1752 50  0000 C CNN
+F 2 "" H 9650 1925 50  0001 C CNN
+F 3 "" H 9650 1925 50  0001 C CNN
+	1    9650 1925
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9200 1850 9250 1850
-Wire Wire Line
-	9250 1850 9250 1750
-Wire Wire Line
-	9250 1750 9200 1750
-Wire Wire Line
-	9250 1750 9650 1750
-Connection ~ 9250 1750
 Wire Wire Line
 	10300 1450 10400 1450
 Wire Wire Line
@@ -1629,23 +1573,10 @@ Wire Wire Line
 	9450 1000 9200 1000
 Wire Wire Line
 	9450 1300 9450 1250
-$Comp
-L power:GNDA #PWR0106
-U 1 1 5EA5EF99
-P 7600 2150
-F 0 "#PWR0106" H 7600 1900 50  0001 C CNN
-F 1 "GNDA" H 7605 1977 50  0000 C CNN
-F 2 "" H 7600 2150 50  0001 C CNN
-F 3 "" H 7600 2150 50  0001 C CNN
-	1    7600 2150
-	1    0    0    -1  
-$EndComp
 Text GLabel 7900 1950 0    50   Input ~ 0
 ENG1
 Wire Wire Line
-	7600 2150 7600 2050
-Wire Wire Line
-	7600 2050 7625 2050
+	7625 2150 7625 2050
 Connection ~ 7625 2050
 Wire Wire Line
 	7625 2050 7900 2050
@@ -1736,4 +1667,106 @@ Wire Wire Line
 	2850 3400 3050 3400
 Connection ~ 2850 3400
 Connection ~ 3050 3400
+$Comp
+L power:GNDD #PWR0107
+U 1 1 5E578569
+P 5950 7475
+F 0 "#PWR0107" H 5950 7225 50  0001 C CNN
+F 1 "GNDD" H 5954 7320 50  0000 C CNN
+F 2 "" H 5950 7475 50  0001 C CNN
+F 3 "" H 5950 7475 50  0001 C CNN
+	1    5950 7475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 7475 6050 7475
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5E5A9771
+P 6225 6375
+F 0 "J3" H 6305 6367 50  0000 L CNN
+F 1 "Conn_01x04" H 6305 6276 50  0000 L CNN
+F 2 "22-05-7045:22-05-7045" H 6225 6375 50  0001 C CNN
+F 3 "~" H 6225 6375 50  0001 C CNN
+	1    6225 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J5
+U 1 1 5E5AA71E
+P 6250 7375
+F 0 "J5" H 6330 7417 50  0000 L CNN
+F 1 "Conn_01x03" H 6330 7326 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 6250 7375 50  0001 C CNN
+F 3 "~" H 6250 7375 50  0001 C CNN
+	1    6250 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5E5AB8D5
+P 4975 7350
+F 0 "J1" H 5055 7392 50  0000 L CNN
+F 1 "Conn_01x03" H 5055 7301 50  0000 L CNN
+F 2 "22-05-7035:SHDR3W70P0X250_1X3_990X790X510P" H 4975 7350 50  0001 C CNN
+F 3 "~" H 4975 7350 50  0001 C CNN
+	1    4975 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 7450 4775 7450
+$Comp
+L power:GNDD #PWR0109
+U 1 1 5E598ADE
+P 4675 7450
+F 0 "#PWR0109" H 4675 7200 50  0001 C CNN
+F 1 "GNDD" H 4679 7295 50  0000 C CNN
+F 2 "" H 4675 7450 50  0001 C CNN
+F 3 "" H 4675 7450 50  0001 C CNN
+	1    4675 7450
+	1    0    0    -1  
+$EndComp
+Text Notes 4225 7125 0    79   ~ 0
+UART - wtyczka
+Text Notes 5350 7125 0    79   ~ 0
+magistrala CAN - wtyczka\n
+$Comp
+L power:GNDA #PWR0106
+U 1 1 5EA5EF99
+P 7625 2150
+F 0 "#PWR0106" H 7625 1900 50  0001 C CNN
+F 1 "GNDA" H 7630 1977 50  0000 C CNN
+F 2 "" H 7625 2150 50  0001 C CNN
+F 3 "" H 7625 2150 50  0001 C CNN
+	1    7625 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 1850 9650 1925
+Connection ~ 9650 1850
+Wire Wire Line
+	9200 1850 9200 1750
+Wire Wire Line
+	9200 1650 9350 1650
+Wire Wire Line
+	9500 1650 9650 1650
+Connection ~ 9650 1650
+Wire Wire Line
+	9650 1650 9700 1650
+Wire Wire Line
+	9350 1650 9350 1950
+Wire Wire Line
+	9350 1950 9200 1950
+Wire Wire Line
+	9200 1850 9500 1850
+Connection ~ 9200 1850
+Connection ~ 9500 1850
+Wire Wire Line
+	9500 1850 9650 1850
+Wire Wire Line
+	9350 1650 9500 1650
+Connection ~ 9350 1650
+Connection ~ 9500 1650
+Text Notes 7750 5450 0    79   ~ 0
+Zasilanie - wtyczki
 $EndSCHEMATC

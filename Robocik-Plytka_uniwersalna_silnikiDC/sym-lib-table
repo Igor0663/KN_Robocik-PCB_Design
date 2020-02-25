@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name ACSL-6400-00TE)(type Legacy)(uri ${KIPRJMOD}/ACSL-6400-00TE.lib)(options "")(descr ""))
   (lib (name L6205D)(type Legacy)(uri ${KIPRJMOD}/L6205D.lib)(options "")(descr ""))
+  (lib (name 43650-0212)(type Legacy)(uri ${KIPRJMOD}/43650-0212.lib)(options "")(descr ""))
 )
