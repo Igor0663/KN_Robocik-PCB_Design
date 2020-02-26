@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Robocik-Plytka_uniwersalna_silnikiDC-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -242,7 +241,7 @@ U 1 1 5E48A897
 P 9500 1750
 F 0 "C22" V 9725 1750 50  0000 C CNN
 F 1 "100uF" V 9634 1750 50  0000 C CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C" H 9500 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x5.4" H 9500 1750 50  0001 C CNN
 F 3 "~" H 9500 1750 50  0001 C CNN
 	1    9500 1750
 	1    0    0    -1  
