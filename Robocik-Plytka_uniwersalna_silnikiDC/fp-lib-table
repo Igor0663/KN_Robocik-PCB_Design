@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name 43650-0212)(type Legacy)(uri ${KIPRJMOD}/43650-0212.mod)(options "")(descr ""))
-  (lib (name 22-05-7035)(type Legacy)(uri ${KIPRJMOD}/22-05-7035.mod)(options "")(descr ""))
-  (lib (name 22-05-7045)(type Legacy)(uri ${KIPRJMOD}/22-05-7045.mod)(options "")(descr ""))
+  (lib (name 22-05-7035)(type Legacy)(uri ${KIPRJMOD}/Footprints/22-05-7035.mod)(options "")(descr ""))
+  (lib (name 22-05-7045)(type Legacy)(uri ${KIPRJMOD}/Footprints/22-05-7045.mod)(options "")(descr ""))
+  (lib (name 43650-0212)(type Legacy)(uri ${KIPRJMOD}/Footprints/43650-0212.mod)(options "")(descr ""))
 )
