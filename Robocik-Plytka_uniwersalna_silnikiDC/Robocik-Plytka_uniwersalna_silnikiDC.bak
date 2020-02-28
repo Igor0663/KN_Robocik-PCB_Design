@@ -1683,13 +1683,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 5E5A9771
-P 6225 6375
-F 0 "J3" H 6305 6367 50  0000 L CNN
-F 1 "Conn_01x04" H 6305 6276 50  0000 L CNN
-F 2 "22-05-7045:22-05-7045" H 6225 6375 50  0001 C CNN
-F 3 "~" H 6225 6375 50  0001 C CNN
-	1    6225 6375
-	1    0    0    -1  
+P 6225 6475
+F 0 "J3" H 6305 6467 50  0000 L CNN
+F 1 "Conn_01x04" H 6305 6376 50  0000 L CNN
+F 2 "22-05-7045:22-05-7045" H 6225 6475 50  0001 C CNN
+F 3 "~" H 6225 6475 50  0001 C CNN
+	1    6225 6475
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J5
@@ -1700,7 +1700,7 @@ F 1 "Conn_01x03" H 6330 7326 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 6250 7375 50  0001 C CNN
 F 3 "~" H 6250 7375 50  0001 C CNN
 	1    6250 7375
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J1
