@@ -432,7 +432,7 @@ F 1 "XT90PW-F" H 1125 1559 50  0000 C CNN
 F 2 "Connectors:XT90PW-F" H 1125 1625 50  0001 C CNN
 F 3 "" H 1125 1625 50  0001 C CNN
 	1    1125 1325
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0116
