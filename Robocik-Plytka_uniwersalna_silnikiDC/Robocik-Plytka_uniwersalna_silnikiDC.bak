@@ -1680,7 +1680,7 @@ F 1 "Conn_01x03" H 6330 7326 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 6250 7375 50  0001 C CNN
 F 3 "~" H 6250 7375 50  0001 C CNN
 	1    6250 7375
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J1
@@ -1691,7 +1691,7 @@ F 1 "Conn_01x03" H 5055 7301 50  0000 L CNN
 F 2 "22-05-7035:SHDR3W70P0X250_1X3_990X790X510P" H 4975 7350 50  0001 C CNN
 F 3 "~" H 4975 7350 50  0001 C CNN
 	1    4975 7350
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4675 7450 4775 7450

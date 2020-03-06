@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Robocik-Plytka_uniwersalna_silnikiDC-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -904,7 +905,7 @@ U 1 1 5E4FDF80
 P 1850 5350
 F 0 "Y2" V 1896 5262 50  0000 R CNN
 F 1 "LSE OSC" V 1700 5450 50  0000 R CNN
-F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 1850 5350 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 1850 5350 50  0001 C CNN
 F 3 "~" H 1850 5350 50  0001 C CNN
 	1    1850 5350
 	0    -1   -1   0   
