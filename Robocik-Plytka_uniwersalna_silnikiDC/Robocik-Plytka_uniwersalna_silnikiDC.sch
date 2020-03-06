@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Robocik-Plytka_uniwersalna_silnikiDC-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1381,14 +1380,6 @@ Wire Wire Line
 	4675 7250 4775 7250
 Wire Wire Line
 	4675 7350 4775 7350
-Wire Wire Line
-	6025 6275 5925 6275
-Wire Wire Line
-	5925 6375 6025 6375
-Wire Wire Line
-	6025 6475 5925 6475
-Wire Wire Line
-	5925 6575 6025 6575
 Text GLabel 7950 4200 2    50   Input ~ 0
 CAN_H
 Text GLabel 7950 4300 2    50   Input ~ 0
@@ -1681,17 +1672,6 @@ $EndComp
 Wire Wire Line
 	5950 7475 6050 7475
 $Comp
-L Connector_Generic:Conn_01x04 J3
-U 1 1 5E5A9771
-P 6225 6375
-F 0 "J3" H 6305 6367 50  0000 L CNN
-F 1 "Conn_01x04" H 6305 6276 50  0000 L CNN
-F 2 "22-05-7045:22-05-7045" H 6225 6375 50  0001 C CNN
-F 3 "~" H 6225 6375 50  0001 C CNN
-	1    6225 6375
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J5
 U 1 1 5E5AA71E
 P 6250 7375
@@ -1700,7 +1680,7 @@ F 1 "Conn_01x03" H 6330 7326 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 6250 7375 50  0001 C CNN
 F 3 "~" H 6250 7375 50  0001 C CNN
 	1    6250 7375
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J1
@@ -1711,7 +1691,7 @@ F 1 "Conn_01x03" H 5055 7301 50  0000 L CNN
 F 2 "22-05-7035:SHDR3W70P0X250_1X3_990X790X510P" H 4975 7350 50  0001 C CNN
 F 3 "~" H 4975 7350 50  0001 C CNN
 	1    4975 7350
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4675 7450 4775 7450
@@ -1769,4 +1749,23 @@ Connection ~ 9350 1650
 Connection ~ 9500 1650
 Text Notes 7750 5450 0    79   ~ 0
 Zasilanie - wtyczki
+Wire Wire Line
+	5925 6575 6025 6575
+Wire Wire Line
+	6025 6475 5925 6475
+Wire Wire Line
+	5925 6375 6025 6375
+Wire Wire Line
+	6025 6275 5925 6275
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5E5A9771
+P 6225 6475
+F 0 "J3" H 6305 6467 50  0000 L CNN
+F 1 "Conn_01x04" H 6305 6376 50  0000 L CNN
+F 2 "22-05-7045:22-05-7045" H 6225 6475 50  0001 C CNN
+F 3 "~" H 6225 6475 50  0001 C CNN
+	1    6225 6475
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
