@@ -293,10 +293,10 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/3D models/Crystal_SMD-5x3,2.STEP"
+    (model "${KIPRJMOD}/3D models/Crystal_SMD-3,2x1,5.STEP"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
